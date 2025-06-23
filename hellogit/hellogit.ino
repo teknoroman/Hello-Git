@@ -1,4 +1,5 @@
 int Led = 13;
+int Denbora =1000;
 
 void setup()
 {
@@ -7,7 +8,7 @@ void setup()
 void loop()
 {
   digitalWrite (Led, HIGH);
-  delay (1000);
+  delay (Denbora);
   digitalWrite (Led, LOW);
-  delay (1000);
+  delay (Denbora);
 }
