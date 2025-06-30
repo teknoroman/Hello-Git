@@ -1,6 +1,4 @@
-
-int Led = 5;
-
+int Led = 3;
 
 void setup()
 {
@@ -10,9 +8,9 @@ void setup()
 void loop()
 {
   digitalWrite (Led, HIGH);
-  Serial.println("piztu");
-  delay (5000);
+  Serial.println("piztuta");
+  delay (3000);
   digitalWrite (Led, LOW);
-  Serial.println("itzali");
-  delay (5000);
+  Serial.println("itzalita");
+  delay (3000);
 }
