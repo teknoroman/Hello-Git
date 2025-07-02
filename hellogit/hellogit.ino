@@ -1,4 +1,4 @@
-int Led = 13;
+int Led = 10;
 int Denbora =1000;
 
 void setup()
